@@ -1,15 +1,13 @@
 # Pyrat
-PyRAT – CTF Rootkit Simulation Framework (Educational Use Only)
+#PyRAT – CTF Rootkit Simulation Framework (Educational Use Only)
 Overview
 
 PyRAT is a Capture-The-Flag (CTF) rootkit simulation framework designed for cybersecurity education and offensive-defense training scenarios. It is intended to help learners understand how persistence mechanisms, covert access patterns, and privilege boundaries work in real systems — and how defenders can detect and eliminate them.
 
 This project focuses on rootkit concepts and attacker methodology, not on deployment for unauthorized access.
 
-⚠️ Legal & Ethical Notice
-PyRAT is for educational use in controlled environments only (e.g., labs, CTFs, test systems you own or are authorized to use). Deploying rootkit-style software on systems without permission is illegal and unethical.
 
-Learning Objectives
+#Learning Objectives
 
 PyRAT is designed to help participants understand:
 
